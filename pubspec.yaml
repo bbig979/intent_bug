@@ -30,15 +30,15 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
+  flutter_inappwebview:
+    git:
+      url: https://github.com/bbig979/flutter_inappwebview
+  path_provider: ^2.0.11
+  photo_view: ^0.14.0
   receive_sharing_intent: ^1.4.5
+  url_launcher: ^6.1.5
 
 dev_dependencies:
-
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
   flutter_lints: ^2.0.0
   flutter_test:
     sdk: flutter
